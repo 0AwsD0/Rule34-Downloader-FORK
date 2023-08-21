@@ -1,0 +1,5 @@
+Inside one of the version folders
+
+python C:\Users\[YOUR_USER_NAME]\AppData\...Scripts\pyinstaller.exe --onefile -windowed mainGUI.py
+
+for example: python C:\Users\John\AppData\Local\Programs\Python\Python310\Scripts\pyinstaller.exe --onefile -windowed mainGui.py
