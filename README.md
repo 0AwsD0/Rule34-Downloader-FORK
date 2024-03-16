@@ -11,6 +11,8 @@ TAGSWITCH AND AUTOMATED ARE WORKING AS FOLLOWS
 - in booth versions default 3 tags  are set to: long_hair, ponytail and hime_cut /by searching those (ctrl+F) you will easily replace them to your linking
 I wrote those changes for my self so you should modify it to your liking. In case of AUTOMATED version there is slight problem that it search for tags at the end of downloading but I don't see it as a problem and don't bother to fix it. If you want you can do it your self. Version contain some minor bugs but all of them are functional.
 
+## If you encounter issue with downloader crashing after search button was pressed - try to check if you are considered BOT -> if you got 'cloudflared' OR disconnect your VPN //line 'self.totalExpected = self.runInExecutor(self.r34.totalImages, self.searchTerm)' in mainGUI.py
+
 ### BELOW ORIGINAL README
 
 ![Image](https://i.imgur.com/bGs9kps.png)
