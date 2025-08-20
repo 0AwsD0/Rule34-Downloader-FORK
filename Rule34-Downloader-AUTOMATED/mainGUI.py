@@ -2,7 +2,7 @@ import math
 import os
 import re
 import sys
-import rule34
+from rule34 import Rule34, Sync
 import gui
 import urllib.request
 import concurrent.futures
@@ -24,7 +24,8 @@ class r34DwnldrGUI:
         self.tagiiterator = 0
         self.OryginalnysearchTerm = None
 
-        self.r34 = rule34.Sync()
+        self.r34 = Sync(api_key="your_api_key", user_id="your_user_id")
+
         self.totalExpected = 0  # How many posts are expected
         self.postList = []
 
