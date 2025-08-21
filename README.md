@@ -3,6 +3,10 @@
 ##Update 20.08.2025 - Now you need the API KEY to use program -> [Here more about it - Issues #1
 ](https://github.com/0AwsD0/Rule34-Downloader-FORK/issues/1)
 
+ALL VERSIONS NOW REQUIRE THE 'api.txt' FILE IN THEIR EXECUTION DIRECTORY CONTAINING API KEY FROM WEBSITE
+
+IF YOU DOWNLOAD EXE FROM THIS REPOSITORY - REMBMBER TO CREATEOR DOWNLOAD 'api.txt' FILE AND INSERT YOUR CREDENTIALS THERE
+
 This is copy of deleted repository containing some improvements and new versions of program that include functionalities that I wanted. It contains three versions of the program. Every version have fixed some bugs and every version now have also selected download checkboxes on the program startup, it was not the case in original one. It just saves time on clicking them. Also at the start program enters -futanari tag in the search field. You can change it in source code in gui.py line 51: self.searchInput.setText(" -futanari")
 - MAIN version is the basic downloader with some fixes THIS VERSION IS AN EXE FILE IN ROOT OF THE REPOSITORY >>>  Rule34-Downloader-MAIN.exe
 - TAGSWITCH version will switch between tags (ADD THEM) that you provide in mainGUI.py after finishing download but will not start downloading. If certain tag have 0 matches, program will move to next one. If you want to download images every time with defined variety: have black_hair, short_hair, ponytail - this version of the programm will add those tags to original term - original tag so you don't have to type them manually every time you wanna download new for example character. YOU HAVE TO INSERT YOUR TAGS AND PACK EXE YOUR SELF
