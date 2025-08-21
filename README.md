@@ -5,7 +5,7 @@
 
 ALL VERSIONS NOW REQUIRE THE 'api.txt' FILE IN THEIR EXECUTION DIRECTORY CONTAINING API KEY FROM WEBSITE
 
-IF YOU DOWNLOAD EXE FROM THIS REPOSITORY - REMBMBER TO CREATEOR DOWNLOAD 'api.txt' FILE AND INSERT YOUR CREDENTIALS THERE
+IF YOU DOWNLOAD EXE FROM THIS REPOSITORY - REMEMBER TO CREATE OR DOWNLOAD 'api.txt' FILE AND INSERT YOUR CREDENTIALS THERE
 
 This is copy of deleted repository containing some improvements and new versions of program that include functionalities that I wanted. It contains three versions of the program. Every version have fixed some bugs and every version now have also selected download checkboxes on the program startup, it was not the case in original one. It just saves time on clicking them. Also at the start program enters -futanari tag in the search field. You can change it in source code in gui.py line 51: self.searchInput.setText(" -futanari")
 - MAIN version is the basic downloader with some fixes THIS VERSION IS AN EXE FILE IN ROOT OF THE REPOSITORY >>>  Rule34-Downloader-MAIN.exe
