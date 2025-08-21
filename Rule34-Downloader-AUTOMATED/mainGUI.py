@@ -24,7 +24,21 @@ class r34DwnldrGUI:
         self.tagiiterator = 0
         self.OryginalnysearchTerm = None
 
-        self.r34 = Sync(api_key="your_api_key", user_id="your_user_id")
+        # API KEY LOAD IN
+        self.api_key = None
+        self.user_id = None
+        # load the single line from txt
+        with open("api.txt", "r", encoding="utf-8") as f:
+            line = f.read().strip()
+        if "&api_key=" in line and "&user_id=" in line:
+            parts = line.split("&")
+            for part in parts:
+                if part.startswith("api_key="):
+                    self.api_key = part.split("=", 1)[1]
+                elif part.startswith("user_id="):
+                    self.user_id = part.split("=", 1)[1]
+        # API KEY LOAD IN END
+        self.r34 = Sync(self.api_key, self.user_id)
 
         self.totalExpected = 0  # How many posts are expected
         self.postList = []
